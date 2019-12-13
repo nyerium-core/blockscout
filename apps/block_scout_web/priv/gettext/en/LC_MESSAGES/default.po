@@ -259,6 +259,17 @@ msgid "Blocks Indexed"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
+=======
+#: lib/block_scout_web/templates/address/_tabs.html.eex:32
+#: lib/block_scout_web/templates/address/overview.html.eex:97
+#: lib/block_scout_web/templates/address_validation/index.html.eex:13
+#: lib/block_scout_web/views/address_view.ex:315
+msgid "Blocks Validated"
+msgstr ""
+
+#, elixir-format
+>>>>>>> Display drop-down list of Claim Reward pools with amounts
 #: lib/block_scout_web/templates/layout/_footer.html.eex:17
 msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
 msgstr ""
@@ -303,7 +314,27 @@ msgid "Clear"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
 #: lib/block_scout_web/templates/address_contract_verification/new.html.eex:71
+=======
+#: lib/block_scout_web/templates/address/_tabs.html.eex:42
+#: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:165
+#: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:187
+#: lib/block_scout_web/templates/api_docs/_eth_rpc_item.html.eex:126
+#: lib/block_scout_web/templates/api_docs/_eth_rpc_item.html.eex:149
+#: lib/block_scout_web/views/address_view.ex:311
+msgid "Code"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/address/_tabs.html.eex:20
+#: lib/block_scout_web/views/address_view.ex:314
+msgid "Coin Balance History"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/address_contract_verification/new.html.eex:40
+>>>>>>> Display drop-down list of Claim Reward pools with amounts
 msgid "Compiler"
 msgstr ""
 
@@ -507,7 +538,16 @@ msgid "Decoded"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
 #: lib/block_scout_web/templates/address/_tabs.html.eex:64
+=======
+#: lib/block_scout_web/views/address_view.ex:312
+msgid "Decompiled Code"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/address/_tabs.html.eex:52
+>>>>>>> Display drop-down list of Claim Reward pools with amounts
 msgid "Decompiled code"
 msgstr ""
 
@@ -925,6 +965,17 @@ msgid "Token Transfers"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
+=======
+#: lib/block_scout_web/templates/address/_tabs.html.eex:8
+#: lib/block_scout_web/templates/address_token/index.html.eex:8
+#: lib/block_scout_web/templates/address_token_transfer/index.html.eex:9
+#: lib/block_scout_web/views/address_view.ex:308
+msgid "Tokens"
+msgstr ""
+
+#, elixir-format
+>>>>>>> Display drop-down list of Claim Reward pools with amounts
 #: lib/block_scout_web/templates/address/_metatags.html.eex:13
 msgid "Top Accounts - %{subnetwork} Explorer"
 msgstr ""
@@ -961,6 +1012,19 @@ msgid "Internal Transaction"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
+=======
+#: lib/block_scout_web/templates/address/_tabs.html.eex:14
+#: lib/block_scout_web/templates/address_internal_transaction/index.html.eex:19
+#: lib/block_scout_web/templates/transaction/_tabs.html.eex:11
+#: lib/block_scout_web/templates/transaction_internal_transaction/index.html.eex:6
+#: lib/block_scout_web/views/address_view.ex:310
+#: lib/block_scout_web/views/transaction_view.ex:314
+msgid "Internal Transactions"
+msgstr ""
+
+#, elixir-format
+>>>>>>> Display drop-down list of Claim Reward pools with amounts
 #: lib/block_scout_web/templates/transaction/invalid.html.eex:6
 msgid "Invalid Transaction Hash"
 msgstr ""
@@ -1044,6 +1108,19 @@ msgid "Log Data"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
+=======
+#: lib/block_scout_web/templates/address/_tabs.html.eex:26
+#: lib/block_scout_web/templates/address_logs/index.html.eex:8
+#: lib/block_scout_web/templates/transaction/_tabs.html.eex:17
+#: lib/block_scout_web/templates/transaction_log/index.html.eex:8
+#: lib/block_scout_web/views/address_view.ex:316
+#: lib/block_scout_web/views/transaction_view.ex:315
+msgid "Logs"
+msgstr ""
+
+#, elixir-format
+>>>>>>> Display drop-down list of Claim Reward pools with amounts
 #: lib/block_scout_web/templates/layout/_footer.html.eex:44
 msgid "Main Networks"
 msgstr ""
@@ -1242,6 +1319,17 @@ msgid "Raw Trace"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
+=======
+#: lib/block_scout_web/templates/address/_tabs.html.eex:58
+#: lib/block_scout_web/templates/tokens/overview/_tabs.html.eex:25
+#: lib/block_scout_web/views/address_view.ex:313
+#: lib/block_scout_web/views/tokens/overview_view.ex:37
+msgid "Read Contract"
+msgstr ""
+
+#, elixir-format
+>>>>>>> Display drop-down list of Claim Reward pools with amounts
 #:
 #: lib/block_scout_web/templates/common_components/_pagination_container.html.eex:11
 msgid "Records"
@@ -1536,6 +1624,25 @@ msgid "Transaction Speed"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
+=======
+#: lib/block_scout_web/templates/address/_tabs.html.eex:3
+#: lib/block_scout_web/templates/address_transaction/index.html.eex:15
+#: lib/block_scout_web/templates/block_transaction/index.html.eex:10
+#: lib/block_scout_web/templates/block_transaction/index.html.eex:18
+#: lib/block_scout_web/templates/chain/show.html.eex:145
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:64
+#: lib/block_scout_web/views/address_view.ex:309
+msgid "Transactions"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/address/overview.html.eex:84
+msgid "Transactions Sent"
+msgstr ""
+
+#, elixir-format
+>>>>>>> Display drop-down list of Claim Reward pools with amounts
 #: lib/block_scout_web/templates/address/_tile.html.eex:31
 msgid "Transactions sent"
 msgstr ""
@@ -2067,6 +2174,8 @@ msgid "Candidate’s Staked Amount"
 msgstr ""
 
 #, elixir-format
+#:
+#: lib/block_scout_web/templates/stakes/_stakes_modal_claim_reward_content.html.eex:6
 #: lib/block_scout_web/templates/stakes/_stakes_modal_move.html.eex:22
 msgid "Choose Pool"
 msgstr ""
@@ -2515,7 +2624,7 @@ msgstr ""
 
 #, elixir-format
 #:
-#: lib/block_scout_web/templates/stakes/_stakes_modal_claim_reward_content.html.eex:11
+#: lib/block_scout_web/templates/stakes/_stakes_modal_claim_reward_content.html.eex:27
 msgid "Unable to find any pools you staked into."
 msgstr ""
 
@@ -2525,21 +2634,27 @@ msgid "Searching for pools you have ever staked into. Please, wait..."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/channels/stakes_channel.ex:259
+#: lib/block_scout_web/channels/stakes_channel.ex:260
 msgid "Pools searching is already in progress for this address"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/channels/stakes_channel.ex:261
+#: lib/block_scout_web/channels/stakes_channel.ex:262
 msgid "Unknown staker address. Please, choose your account in MetaMask"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/channels/stakes_channel.ex:438
+#: lib/block_scout_web/channels/stakes_channel.ex:441
 msgid "JSON RPC error"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/channels/stakes_channel.ex:263
+#: lib/block_scout_web/channels/stakes_channel.ex:264
 msgid "Unknown address of Staking contract. Please, contact support"
+msgstr ""
+
+#, elixir-format
+#:
+#: lib/block_scout_web/templates/stakes/_stakes_modal_claim_reward_content.html.eex:2
+msgid "We found the following pools you can claim your reward from:"
 msgstr ""
