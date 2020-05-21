@@ -162,8 +162,8 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address/_balance_card.html.eex:3
-#: lib/block_scout_web/templates/stakes/_stakes_stats_item_account.html.eex:24
-#: lib/block_scout_web/templates/stakes/_stakes_stats_item_account.html.eex:25
+#: lib/block_scout_web/templates/stakes/_stakes_stats_item_account.html.eex:42
+#: lib/block_scout_web/templates/stakes/_stakes_stats_item_account.html.eex:43
 msgid "Balance"
 msgstr ""
 
@@ -1955,8 +1955,14 @@ msgid "Search by address, token symbol, name, transaction hash, or block number"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:7
 msgid "All functions displayed below are from ABI of that contract. In order to verify current contract, proceed with"
+=======
+#: lib/block_scout_web/templates/stakes/_stakes_stats_item_account.html.eex:49
+#: lib/block_scout_web/templates/stakes/_stakes_stats_item_account.html.eex:50
+msgid "Ordered"
+>>>>>>> gettext fixes
 msgstr ""
 
 #, elixir-format
@@ -1986,11 +1992,51 @@ msgid "Bridged"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
 #: lib/block_scout_web/templates/bridged_tokens/index.html.eex:4
 msgid "Bridged Tokens"
 =======
 #: lib/block_scout_web/templates/stakes/_stakes_modal_delegators_list.html.eex:13
 =======
+=======
+#: lib/block_scout_web/templates/stakes/_stakes_title.html.eex:8
+msgid "Show banned only"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/stakes/_stakes_modal_stake.html.eex:7
+msgid "Stake"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/stakes/_stakes_modal_stake.html.eex:43
+msgid "Stake More"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/stakes/_stakes_modal_move.html.eex:58
+msgid "Stake placed on a candidate pool or an active validator pool <strong>during the current staking epoch</strong> can be moved from one pool to another. Active stake cannot be moved. To re-delegate active stake: order a withdrawal, claim the amount on the next staking epoch, and stake the amount on a different pool."
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/stakes/_stakes_modal_stake.html.eex:53
+msgid "Stake placed on a pool is <strong>pending</strong> for the current staking epoch. It will be applied to the next staking epoch. You may withdraw or move pending stake at any time until it becomes active. Once active (the pool you staked with becomes a validator), a withdrawal order can be placed. This amount will be available to claim after that staking epoch is complete."
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/stakes/_stakes_stats_item_account.html.eex:45
+#: lib/block_scout_web/templates/stakes/_stakes_stats_item_account.html.eex:46
+msgid "Staked"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/stakes/_table.html.eex:8
+msgid "Staked Amount"
+msgstr ""
+
+#, elixir-format
+#:
+>>>>>>> gettext fixes
 #: lib/block_scout_web/templates/stakes/_stakes_modal_delegators_list.html.eex:24
 >>>>>>> Fix tooltip in Delegators window
 msgid "Staker's Address"
@@ -2354,7 +2400,7 @@ msgstr ""
 msgid "DApp for Staking %{symbol} tokens"
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/block_scout_web/templates/stakes/_stakes_modal_stake.html.eex:22
 msgid "Minimum Stake Allowed:"
 msgstr ""
@@ -2381,7 +2427,7 @@ msgstr ""
 msgid "You Can Order:"
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/block_scout_web/templates/stakes/_stakes_modal_stake.html.eex:16
 msgid "Your Current Stake:"
 msgstr ""
