@@ -1797,12 +1797,16 @@ msgstr ""
 
 #, elixir-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: lib/block_scout_web/templates/address/_tabs.html.eex:44
 #: lib/block_scout_web/templates/address_validation/index.html.eex:13
 #: lib/block_scout_web/views/address_view.ex:354
 msgid "Blocks Validated"
 =======
 #: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:54
+=======
+#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:76
+>>>>>>> Improve 'Withdraw' popup
 msgid "<p>Pending stake (stake placed on a candidate pool or placed during the current staking epoch) may be withdrawn now.</p>\n        <p>Active stake (stake available after the current epoch) can be ordered for withdrawal from the pool, and will be available to claim after the current staking epoch is complete.</p>\n        <p>If you have already ordered (and the staking window is still open), you may increase your current order by entering a positive value, or decrease your current order by entering a negative value in the box and clicking 'Order Withdrawal'. You must either keep the minimum stake amount in the pool, or order your entire stake for withdrawal.</p>\n"
 >>>>>>> Fix 'Stake' and 'Become a Candidate' popups
 msgstr ""
@@ -1818,9 +1822,14 @@ msgid "Code"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
 #: lib/block_scout_web/templates/address/_tabs.html.eex:30
 #: lib/block_scout_web/views/address_view.ex:353
 msgid "Coin Balance History"
+=======
+#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:27
+msgid "Already Ordered:"
+>>>>>>> Improve 'Withdraw' popup
 msgstr ""
 
 #, elixir-format
@@ -1829,6 +1838,7 @@ msgid "Decompiled Code"
 msgstr ""
 
 #, elixir-format
+<<<<<<< HEAD
 #: lib/block_scout_web/templates/address/_tabs.html.eex:24
 #: lib/block_scout_web/templates/address_internal_transaction/index.html.eex:19
 #: lib/block_scout_web/templates/transaction/_tabs.html.eex:11
@@ -1836,6 +1846,10 @@ msgstr ""
 #: lib/block_scout_web/views/address_view.ex:344
 #: lib/block_scout_web/views/transaction_view.ex:395
 msgid "Internal Transactions"
+=======
+#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:48
+msgid "Available Now:"
+>>>>>>> Improve 'Withdraw' popup
 msgstr ""
 
 #, elixir-format
@@ -2061,7 +2075,7 @@ msgid "No Information"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:34
+#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:62
 msgid "Order Withdrawal"
 msgstr ""
 
@@ -2205,7 +2219,7 @@ msgid "Withdraw"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:48
+#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:70
 msgid "Withdraw Now"
 msgstr ""
 
@@ -2328,24 +2342,24 @@ msgid "Searching for pools you have ever staked into. Please, wait..."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/channels/stakes_channel.ex:682
+#: lib/block_scout_web/channels/stakes_channel.ex:683
 msgid "Pools searching is already in progress for this address"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/channels/stakes_channel.ex:685
-#: lib/block_scout_web/channels/stakes_channel.ex:732
+#: lib/block_scout_web/channels/stakes_channel.ex:686
+#: lib/block_scout_web/channels/stakes_channel.ex:733
 msgid "Unknown staker address. Please, choose your account in MetaMask"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/channels/stakes_channel.ex:632
+#: lib/block_scout_web/channels/stakes_channel.ex:633
 msgid "JSON RPC error"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/channels/stakes_channel.ex:689
-#: lib/block_scout_web/channels/stakes_channel.ex:736
+#: lib/block_scout_web/channels/stakes_channel.ex:690
+#: lib/block_scout_web/channels/stakes_channel.ex:737
 msgid "Unknown address of Staking contract. Please, contact support"
 msgstr ""
 
@@ -2415,17 +2429,17 @@ msgid "The staking epochs for which the reward could be claimed:"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/channels/stakes_channel.ex:726
+#: lib/block_scout_web/channels/stakes_channel.ex:727
 msgid "Staking epochs are not specified or not in the allowed range"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/channels/stakes_channel.ex:729
+#: lib/block_scout_web/channels/stakes_channel.ex:730
 msgid "Unknown pool staking address. Please, contact support"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/channels/stakes_channel.ex:723
+#: lib/block_scout_web/channels/stakes_channel.ex:724
 msgid "Reward calculating is already in progress for this address"
 msgstr ""
 
@@ -2505,7 +2519,7 @@ msgid "Minimum Stake Allowed:"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:29
+#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:39
 msgid "The amount can be claimed after the current epoch finishes."
 msgstr ""
 
@@ -2522,7 +2536,7 @@ msgid "This is a %{pool_type}."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:25
+#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:34
 msgid "You Can Order:"
 msgstr ""
 
@@ -2535,7 +2549,7 @@ msgstr ""
 =======
 
 #, elixir-format
-#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:43
+#: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:52
 msgid "You can withdraw this amount right now."
 msgstr ""
 >>>>>>> Fix 'Stake' and 'Become a Candidate' popups
