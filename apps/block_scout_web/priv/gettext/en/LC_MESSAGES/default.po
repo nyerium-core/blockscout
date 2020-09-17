@@ -1248,13 +1248,13 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_logs/index.html.eex:14
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:241
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:272
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:222
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:253
 msgid "Search"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:235
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:216
 msgid "Search by address, token symbol name, transaction hash, or block number"
 msgstr ""
 
@@ -1942,7 +1942,6 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:143
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:189
 msgid "Apps"
 msgstr ""
 
@@ -1952,7 +1951,7 @@ msgid "Copy Raw Trace"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:239
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:220
 msgid "Search by address, token symbol, name, transaction hash, or block number"
 msgstr ""
 
@@ -2039,7 +2038,7 @@ msgstr ""
 msgid "Already Ordered:"
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #:
 #: lib/block_scout_web/templates/stakes/_stakes_modal_become_candidate.html.eex:10
 #: lib/block_scout_web/templates/stakes/_stakes_modal_move.html.eex:14
@@ -2077,7 +2076,7 @@ msgstr ""
 msgid "Become a Candidate"
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/block_scout_web/templates/stakes/_stakes_top.html.eex:5
 msgid "Block number"
 msgstr ""
@@ -2478,7 +2477,7 @@ msgstr ""
 msgid "This pool is banned until block #%{banned_until} (%{estimated_unban_day})"
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #:
 #: lib/block_scout_web/templates/stakes/_stakes_modal_claim_reward_content.html.eex:48
 msgid "Tx Gas Limit:"
@@ -2517,7 +2516,7 @@ msgstr ""
 msgid "Validator pools can be banned for misbehavior (such as not revealing secret numbers). Validator and delegator stake contained in a banned pool cannot be withdrawn until the ban is over."
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:166
 #: lib/block_scout_web/templates/stakes/_stakes_tabs.html.eex:4
 msgid "Validators"
@@ -2588,7 +2587,7 @@ msgstr ""
 msgid "You will receive:"
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #:
 #: lib/block_scout_web/templates/stakes/_stakes_modal_become_candidate.html.eex:18
 #: lib/block_scout_web/templates/stakes/_stakes_modal_stake.html.eex:28
@@ -2636,8 +2635,18 @@ msgstr ""
 msgid "specified epochs only"
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #:
 #: lib/block_scout_web/templates/stakes/_stakes_modal_delegators_list.html.eex:15
 msgid "validator"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/stakes/_metatags.html.eex:2
+msgid "%{subnetwork} Staking DApp - BlockScout"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/stakes/_metatags.html.eex:6
+msgid "DApp for Staking %{symbol} tokens"
 msgstr ""
